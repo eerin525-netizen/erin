@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erin | Portfolio</title>
+  <meta name="description" content="Portfolio of Erin, student at the University of Asia Pacific.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#home" class="logo">Erin.</a>
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Erin</h1>
+      <p class="tagline">Student at the University of Asia Pacific, passionate about <span id="typed"></span></p>
+      <div class="actions">
+        <a class="btn" href="#projects">View my work</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <img class="photo" src="images/profile.jpg" alt="Photo of Erin" onerror="this.remove()">
+      <p>I'm a [year] student studying Computer Science and Engineering (CSE) at the <strong>University of Asia Pacific (UAP)</strong> in Dhaka, Bangladesh. Write two or three sentences here about what drives you, what you're learning, and what you want to do next.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="item">
+          <span class="date">2022 – Present</span>
+          <h3>B.Sc. in Computer Science and Engineering</h3>
+          <p>University of Asia Pacific, Dhaka. CGPA: [x.xx]. Relevant courses: Data Structures, Algorithms, Database Systems, Object-Oriented Programming.</p>
+        </div>
+        <div class="item">
+          <span class="date">2019 – 2021</span>
+          <h3>Higher Secondary Certificate (HSC)</h3>
+          <p>[Your college]. GPA: [x.xx]</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill" style="--lvl:85%">
+          <div class="skill-icon"><img src="images/skills/html.svg" alt="" loading="lazy"></div>
+          <h3>HTML5</h3>
+          <div class="bar"><span></span></div>
+          <small>85%</small>
+        </div>
+        <div class="skill" style="--lvl:80%">
+          <div class="skill-icon"><img src="images/skills/css.svg" alt="" loading="lazy"></div>
+          <h3>CSS3</h3>
+          <div class="bar"><span></span></div>
+          <small>80%</small>
+        </div>
+        <div class="skill" style="--lvl:70%">
+          <div class="skill-icon"><img src="images/skills/js.svg" alt="" loading="lazy"></div>
+          <h3>JavaScript</h3>
+          <div class="bar"><span></span></div>
+          <small>70%</small>
+        </div>
+        <div class="skill" style="--lvl:80%">
+          <div class="skill-icon"><img src="images/skills/python.svg" alt="" loading="lazy"></div>
+          <h3>Python</h3>
+          <div class="bar"><span></span></div>
+          <small>80%</small>
+        </div>
+        <div class="skill" style="--lvl:85%">
+          <div class="skill-icon"><img src="images/skills/c.svg" alt="" loading="lazy"></div>
+          <h3>C</h3>
+          <div class="bar"><span></span></div>
+          <small>85%</small>
+        </div>
+        <div class="skill" style="--lvl:75%">
+          <div class="skill-icon"><img src="images/skills/cpp.svg" alt="" loading="lazy"></div>
+          <h3>C++</h3>
+          <div class="bar"><span></span></div>
+          <small>75%</small>
+        </div>
+        <div class="skill" style="--lvl:65%">
+          <div class="skill-icon"><img src="images/skills/java.svg" alt="" loading="lazy"></div>
+          <h3>Java</h3>
+          <div class="bar"><span></span></div>
+          <small>65%</small>
+        </div>
+        <div class="skill" style="--lvl:65%">
+          <div class="skill-icon"><img src="images/skills/mysql.svg" alt="" loading="lazy"></div>
+          <h3>MySQL</h3>
+          <div class="bar"><span></span></div>
+          <small>65%</small>
+        </div>
+        <div class="skill" style="--lvl:70%">
+          <div class="skill-icon"><img src="images/skills/git.svg" alt="" loading="lazy"></div>
+          <h3>Git</h3>
+          <div class="bar"><span></span></div>
+          <small>70%</small>
+        </div>
+        <div class="skill" style="--lvl:70%">
+          <div class="skill-icon"><img src="images/skills/github.svg" alt="" loading="lazy"></div>
+          <h3>GitHub</h3>
+          <div class="bar"><span></span></div>
+          <small>70%</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <img class="card-img" src="images/project1.jpg" alt="" loading="lazy">
+          <h3>Project One</h3>
+          <p>Short description of what it does and what you built it with.</p>
+          <p class="tags">Python · Flask</p>
+          <a href="#" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <img class="card-img" src="images/project2.jpg" alt="" loading="lazy">
+          <h3>Project Two</h3>
+          <p>Short description of what it does and what you built it with.</p>
+          <p class="tags">JavaScript · HTML · CSS</p>
+          <a href="#" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <img class="card-img" src="images/project3.jpg" alt="" loading="lazy">
+          <h3>Project Three</h3>
+          <p>Course project, thesis, or club work all count.</p>
+          <p class="tags">C++ · Data Structures</p>
+          <a href="#" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Open to internships, collaborations and new ideas.</p>
+      <p><a class="btn" href="mailto:yaminshakil17@gmail.com">yaminshakil17@gmail.com</a></p>
+      <p class="social">
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.facebook.com/Najmun.Erin6789654" target="_blank" rel="noopener">Facebook</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Erin · University of Asia Pacific</footer>
+  <script src="script.js"></script>
+</body>
+</html>
